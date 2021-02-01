@@ -3,113 +3,50 @@
 }
 
 body {
-  background: url('https://png.pngtree.com/thumb_back/fh260/background/20191029/pngtree-blue-lighting-3d-concert-stage-podium-spotlight-vector-background-design-image_320475.jpg'), black;
-  background-position: center;
-  background-repeat: repeat;
-  background-size: cover;
-  font-family: 'Courier New', Courier, monospace;
+  background: steelblue;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.artist-info {
-  height: 325px;
-  overflow: hidden;
-  text-align: center;
-  font-weight: bold;
-  /* opacity: 50%; */
-  background-image: linear-gradient(90deg, #2971a8, rgb(80, 75, 75));
-  border-radius: 10%;
-  color: white;
+.artist-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
 }
 
 .history-discography-songs-populate {
-  /* border: solid red 1px; */
-  height: 325px;
-  overflow: auto;
-  /* opacity: 50%; */
-  background-image: linear-gradient(90deg, rgb(80, 75, 75), #2971a8);
-  border-radius: 10%;
-  padding: 20px;
   color: white;
+  line-height: 1.75rem;
 }
 
 .album-art-thumb {
-  vertical-align: middle;
+  height: 350px;
+  width: 350px;
   margin: 25px;
+  display: inline-block;
 }
 
-.top-songs-card {
-  /* border: solid red 1px; */
-  height: 325px;
-  overflow: auto;
-  padding: 20px;
-  color: white;
-  cursor: pointer;
-  background-image: linear-gradient(90deg, #2971a8, rgb(80, 75, 75));
-  border-radius: 15%;
-  text-align: center;
-  list-style: none;
+#disco_text {
+  vertical-align: middle;
+  font-size: 18px;
+    display: inline-block
+  
 }
-
-.video-card {
-  /* border: solid red 1px; */
-  height: 325px;
-  overflow: hidden;
-}
-
 #artist-pic {
-  max-width: 150px;
-  max-height: 150px;
-  align-content: center;
+  max-width: 15vw;
+  margin: 10px 0;
 }
 
-/* Search Box */
-
-.search-container {
-  width: 40%;
-  height: 50px;
-  background: white;
-  border-radius: 10px;
-  box-shadow: 4px 4px 8px blue;
-  position: relative;
-  margin: 0px;
-  background-image: linear-gradient(90deg, rgb(80, 75, 75), #2971a8);
-}
-*/ .input {
-  width: 100%;
-  height: 40px;
-  display: block;
-  border-radius: 10px;
-  padding-left: 10px;
-  font-size: 30px;
-  font-size: 30px;
-  outline: none;
-  border: none;
-  opacity: 50%;
+form {
+  display: flex;
+  flex-direction: row;
 }
 
-.button {
-  position: absolute;
-  right: -5px;
-  top: 0;
-  width: 50px;
-  height: 100%;
-  background: linear-gradient(90deg, blue, black);
-  color: white;
-  border-radius: 10%;
-  font-size: 40px;
-  outline: none;
-  border: none;
-}
-
-#search-icon {
+#artist-search-button {
   cursor: pointer;
-}
-
-#main-title {
-  font-size: 56px;
-  font-weight: bold;
-  color: red;
-  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  background-color: black;
+  padding: 10px;
 }
 
 a:link {
@@ -121,10 +58,96 @@ a:visited {
 }
 
 #artist-search {
-  color: white;
-  font-family: 'Courier New', Courier, monospace;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 300px;
+  height: 48px;
 }
 
 #jumbotron {
-  height: 150px;
+  height: 20px;
+}
+
+#main-title {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-size: 56px;
+}
+
+#secondary-title {
+  text-align: center;
+  font-family: Verdana;
+  color: white;
+}
+#myModal {
+  top: 30vh;
+
+}
+
+.modal-dialog {
+  max-width: 560px;
+  max-height: 300px;
+  margin: auto;
+  color: black;
+}
+
+.modal-body {
+  position: relative;
+  padding: 0px;
+}
+
+.close {
+  position: absolute;
+  right: -30px;
+  top: 0;
+  z-index: 999;
+  font-size: 2rem;
+  font-weight: normal;
+  color: white;
+  opacity: 1;
+  background-color: black;
+}
+
+iframe {
+  width: 560px;
+  height: 315px;
+}
+
+.embed-responsive-16by9 {
+  max-width: 560px;
+  max-height: 315px;
+  background-color: black;
+}
+
+#artist-name {
+  font-size:48px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  margin: 10px 0;
+
+  }
+
+#show-all-albums {
+  margin: 10px 0;
+}
+
+#show-bio {
+  margin: 10px 0;
+}
+
+#songs-videos {
+  margin: 10px 0;
+}
+
+#website {
+  margin: 10px 0;
+}
+
+.song {
+  list-style: none;
+}
+
+.trackText {
+  cursor: pointer;
 }
