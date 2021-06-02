@@ -1,4 +1,4 @@
-# Thats My Jame Artist Search
+# Thats My Jam Artist Search
 
 ![License](https://img.shields.io/badge/License-MIT-blue.svg 'License Badge')
 
