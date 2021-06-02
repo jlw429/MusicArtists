@@ -1,7 +1,8 @@
 # Thats My Jame Artist Search
+
 ![License](https://img.shields.io/badge/License-MIT-blue.svg 'License Badge')
 
-## Table of Contents 
+## Table of Contents
 
 - [Description](#description)
 - [Dependencies](#dependencies)
@@ -14,17 +15,16 @@
 
 A way for the user to learn more about an artist they may have heard on TikTok or the radio. It gives a short biography of the artist or band, you also have their top 50 songs and the app has the technology to show the music video from youTube that populates as a modal in the middle of the page. The app was built from scratch using Javascript,Jquery, Bootstrap, CSS, HTML and using APIs from the audio database, last.fm, and youtube.
 
-
 ## Future Development:
 
 In the future we would like to see that the web application has the ability to play the youtube videos directly on the site apposed to being forced to link to Youtube. Furthermore, we would like to see that application has a karaoke option which would search the song on Youtube, but specifically seek out videos that have the lyrics on the screen as the music plays. Along with that, we would like to see that there be an option to just populate the lyrics to individual songs on the screen.
 
 ## Dependencies:
 
-* The AudioDB API
-* LastFM API
-* YouTube Data API
-* YouTube Player API
+- The AudioDB API
+- LastFM API
+- YouTube Data API
+- YouTube Player API
 
 ## License:
 
@@ -44,14 +44,14 @@ For the source code, please consult my GitHub page:
 
 ## Screenshots
 
-### Game Start:
+### Artist Bio:
 
-![Main](src/images/start_game_scrnshot.png 'Main')
+![Biography](assets/screenshots/artist_main_scrnshot.png 'Biography')
 
-### Mid-Game:
+### Discography:
 
-![FirstName](src/images/mid_game_scrnshot.png 'FirstName')
+![Discography](assets/screenshots/disco_scrnshot.png 'Discography')
 
-### GameOver:
+### Top Songs:
 
-![Search](src/images/game_over_scrnshot.png 'FirstName')
+![Songs](assets/screenshots/yt_scrnshot.png 'Songs')
