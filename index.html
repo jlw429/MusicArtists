@@ -2,6 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Learn more about your favorite artist or band!"
+    />
+    <meta property="og:title" content="That's My Jam!" />
+    <meta name="image" property="og:image" content="screenshot.png" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -50,44 +56,39 @@
 
     <div class="row m-4">
       <div class="col col-lg-4 artist-main">
-         <form class="search-container">
-            <input
-              placeholder="Artist Search"
-              id="artist-search"
-              type="text"
-              class="input"
-            />
-            <button
-              id="artist-search-button"
-              type="submit"
-              class="button"
-              name="action"
-            >
-              <i id="search-icon" class="fa fa-search"></i>
-            </button>
-          </form>
+        <form class="search-container">
+          <input
+            placeholder="Artist Search"
+            id="artist-search"
+            type="text"
+            class="input"
+          />
+          <button
+            id="artist-search-button"
+            type="submit"
+            class="button"
+            name="action"
+          >
+            <i id="search-icon" class="fa fa-search"></i>
+          </button>
+        </form>
 
-            
-            <h4 id="artist-name">Artist Name</h4>
-            <img id="artist-pic" />
-            <h6 id="show-all-albums"><a href="#">Discography</a></h6>
-            <h6 id="show-bio"><a href="#">Biography</a></h6>
-            <h6 id="songs-videos"><a href="#">Top Songs and Videos</a></h6>
-            <h6 id="website">
-              <a href id="show-artist-website" class="show-artist-web-name"
-                >Artist Website</a
-              >
-            </h6>
-          
-      </div>    
-        
-      
-    
-      <div class="col col-lg-7">
-        <div class="history-discography-songs-populate">
-        </div>
+        <h4 id="artist-name">Artist Name</h4>
+        <img id="artist-pic" />
+        <h6 id="show-all-albums"><a href="#">Discography</a></h6>
+        <h6 id="show-bio"><a href="#">Biography</a></h6>
+        <h6 id="songs-videos"><a href="#">Top Songs and Videos</a></h6>
+        <h6 id="website">
+          <a href id="show-artist-website" class="show-artist-web-name"
+            >Artist Website</a
+          >
+        </h6>
       </div>
-    </div> 
+
+      <div class="col col-lg-7">
+        <div class="history-discography-songs-populate"></div>
+      </div>
+    </div>
 
     <div
       class="modal fade"
@@ -125,5 +126,5 @@
 
     <script src="assets\script.js"></script>
   </body>
-<!--Jason West -->
-  </html>
+  <!--Jason West -->
+</html>
